@@ -22,7 +22,8 @@ class Dataset:
         """
         self.name = ds_name
         # self.ds_path = "<path-to-dataset>" + ds_name.lower() + "/"
-        self.ds_path = "datasets/" + ds_name.lower() + "/"
+        # self.ds_path = "datasets/" + ds_name.lower() + "/"
+        self.ds_path = "/kaggle/input/graph-dataset/" + ds_name.lower() + "/"
         self.ent2id = {}
         self.rel2id = {}
         self.data = {"train": self.readFile(self.ds_path + "train.txt"),
