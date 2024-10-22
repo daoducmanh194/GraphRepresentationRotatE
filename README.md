@@ -1,6 +1,9 @@
 # GraphRepresentationRotatE
 Graph Analysis with Big Data Course Project: Imporving RotatE for Graph Representation
 
+## Dataset
+Link for datasets: https://drive.google.com/drive/folders/1HHwN9sV0lcrW_g6s8oIVCLf7SCQ6JVtB?usp=share_link
+
 ## Installation
 - Create a conda environment:
 ```
